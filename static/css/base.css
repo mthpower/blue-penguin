@@ -1,7 +1,7 @@
 /* Mockingbird Theme by Nevan Scott nevanscott.com */
 /* Modified by Jody Frankowski */
 /* Modified some more by Matthew Power */
-
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text|Raleway);
 
 em {
     font-style: italic;
@@ -12,8 +12,8 @@ strong {
 }
 
 body {
-    font-family: Georgia, serif;
-    font-size: 16px;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
     line-height: 1.5em;
     color: #444;
 }
@@ -37,8 +37,7 @@ ol {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 h1, h2, h3 {
     font-size: 1.5em;
@@ -68,7 +67,7 @@ blockquote {
 
 .info {
     margin-top: 1.3em;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: right;
     color: #BBB;
 }
@@ -97,9 +96,6 @@ blockquote {
 .post.archives {
     margin-bottom: 1.5em;
     margin-left: 160px;
-}
-.post p {
-    text-align: justify;
 }
 
 .page {
@@ -224,7 +220,7 @@ header h2 {
 }
 
 .pages {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 2.5em;
     margin: 4.5em 0 3em;
     background-color: #EEE;
@@ -277,7 +273,7 @@ code {
 }
 
 footer {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 2.5em;
     text-align: center;
     color: #BBB;
