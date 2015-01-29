@@ -13,13 +13,13 @@ strong {
 
 body {
     font-family: 'Crimson Text', serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5em;
     color: #444;
 }
 
 header, #wrapper {
-    width: 910px;
+    width: 36em;
     margin: auto;
 }
 
@@ -184,6 +184,7 @@ nav {
     list-style: none;
     margin: 0 0 0 3em;
     padding: 0;
+    font-family: 'Raleway', sans-serif
 }
 nav li {
     float: left;

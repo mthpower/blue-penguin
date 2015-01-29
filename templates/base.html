@@ -43,13 +43,13 @@
         <nav>
             {%- block ephemeral_nav %}{%- endblock %}
 
-            <li {%- if output_file == "index.html" %} class="selected"{% endif %}><a href="{{ SITEURL }}">Home</a></li>
+            <li {%- if output_file == "index.html" %} class="selected"{% endif %}><a href="{{ SITEURL }}">HOME</a></li>
             {% if DISPLAY_PAGES_ON_MENU %}
             {% for page in PAGES %}
-            <li {%- if output_file == page.url %} class="selected"{% endif %}><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+            <li {%- if output_file == page.url %} class="selected"{% endif %}><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title | upper }}</a></li>
             {% endfor %}
             {% endif %}
-            <li {%- if output_file == "archives.html" %} class="selected"{% endif %}><a href="{{ SITEURL }}/archives.html">Archives</a></li>
+            <li {%- if output_file == "archives.html" %} class="selected"{% endif %}><a href="{{ SITEURL }}/archives.html">ARCHIVES</a></li>
         </nav>
         <div class="header_box">
             <h1><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
