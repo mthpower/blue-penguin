@@ -1,9 +1,9 @@
+        <div class="row">
             {%- if not articles_page or first_article_of_day %}
-
-            <h4 class="date">{{ article.date.strftime("%b %d, %Y") }}</h4>
+            <h4 class="date three columns">{{ article.date.strftime("%b %d, %Y") }}</h4>
             {%- endif %}
 
-            <article class="post">
+            <article class="post nine columns">
                 {% if article.title -%}
                 <h2 class="title">
                     <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permanent Link to &quot;{{ article.title }}&quot;">{{ article.title }}</a>
@@ -12,7 +12,6 @@
 
                 {{ article.content }}
 
-                <div class="clear"></div>
                 <div class="info">
                     <a href="{{ SITEURL }}/{{ article.url }}">posted at {{ article.date.strftime("%H:%M") }}</a>
                     {%- if article.category.name != "misc" -%}
@@ -24,8 +23,6 @@
                     &nbsp;<a href="{{ SITEURL }}/{{ t.url }}" class="tags{%- if tag and tag.name == t.name %} selected{% endif -%}">{{ t }}</a>
                     {%- endfor %}
                     {%- endif %}
-
                 </div>
-
             </article>
-            <div class="clear"></div>
+        </div>
