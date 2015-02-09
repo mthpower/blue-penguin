@@ -1,32 +1,26 @@
 /* Mockingbird Theme by Nevan Scott nevanscott.com */
 /* Modified by Jody Frankowski */
 /* Modified some more by Matthew Power */
-@import url(http://fonts.googleapis.com/css?family=Crimson+Text|Raleway);
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text|Raleway:400,300,600);
+@import 'nav.css';
 
-em {
-    font-style: italic;
+a {
+    text-decoration: none;
+    color: #15A9DB;
 }
 
-strong {
-    font-weight: bold;
-}
-
-body {
+p {
     font-family: 'Crimson Text', serif;
-    font-size: 16px;
-    line-height: 1.5em;
-    color: #444;
 }
+
+
+/*
 
 header, #wrapper {
     width: 36em;
     margin: auto;
 }
 
-a {
-    text-decoration: none;
-    color: #15A9DB;
-}
 
 ul {
     list-style: outside disc;
@@ -132,7 +126,6 @@ img {
     margin-right: auto;
 }
 
-/*sub and sup stolen from Twitter bootstrap.*/
 sub, sup {
     position: relative;
     font-size: 75%;
@@ -287,3 +280,4 @@ footer p { margin: 0; }
 .right { float: right; }
 
 .clear { clear: both; }
+*/
