@@ -1,5 +1,4 @@
 .info {
-    text-align: right;
     color: #BBB;
 }
 
@@ -7,7 +6,12 @@
     color: inherit;
 }
 
-.info a.tags {
+span.tags{
+    text-align: right;
+    float: right
+}
+
+.info a.tag {
     background: #CCC;
     color: #FFF;
     display: inline-block;
@@ -16,11 +20,11 @@
     border-radius: 5px;
 }
 
-.info a.tags:hover {
+.info a.tag:hover {
     background: inherit;
     color: inherit;
 }
 
-.info a.tags.selected {
+.info a.tag.selected {
     border: 1px #999 solid;
 }
